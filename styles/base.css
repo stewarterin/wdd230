@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Paytone+One&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nanum Mayeongjo, 'Times New Roman', serif;
+    font-size: 2em;
+}
+
+header {
+    background-color: rgb(6, 82, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Paytone One, sans-serif;
+    color: white;
+    letter-spacing: 4px;
+}
+
+#profile-img {
+    width: 8%;
+    float: left;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+nav {
+    background-color: black;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Nanum Mayeongjo, 'Times New Roman', serif;
+    color: white;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+}
+
+h2 {
+    font-family: Paytone One, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color: rgb(67, 66, 66);
+    border-bottom: 10px rgb(67, 66, 66);
+    padding-bottom: 5px;
+}
+
+.card {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(67, 66, 66);
+    margin: 20px;
+}
+
+.card h3 {
+    background-color: rgb(6, 82, 141);
+    border-radius: 25px 25px 0 0;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(6, 82, 141);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#lastModified {
+    color: yellow;
+}
