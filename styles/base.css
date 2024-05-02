@@ -31,13 +31,16 @@ h1 {
 
 nav {
     background-color: black;
-
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     font-family: Nanum Mayeongjo, 'Times New Roman', serif;
     color: white;
+    padding: 1rem;
 }
 
 main {
