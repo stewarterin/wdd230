@@ -18,6 +18,7 @@ header {
 
 h1 {
     font-family: Paytone One, sans-serif;
+    font-size: 2.5em;
     color: white;
     letter-spacing: 4px;
 }
@@ -58,13 +59,13 @@ h2 {
     letter-spacing: 1px;
     margin: 0 auto;
     color: rgb(67, 66, 66);
-    border-bottom: 10px rgb(67, 66, 66);
-    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(67, 66, 66);
+    padding: 10px;
 }
 
 .card {
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 30px;
     border-color: rgb(67, 66, 66);
     margin: 20px;
 }
@@ -75,6 +76,7 @@ h2 {
     color: white;
     text-align: center;
     margin: 0;
+    padding: 10px;
 }
 
 .card ul {

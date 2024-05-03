@@ -1,5 +1,5 @@
 let ccYear = new Date().getFullYear();
-document.getElementById("year").innerHTML = `&copy; ${ccYear}`
+document.getElementById("year").innerHTML = `${ccYear}`
 
 
 let modifiedDate = new Date(document.lastModified);
