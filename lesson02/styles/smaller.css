@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        padding: 20px;
+    }
+
+    #audible-card {
+        grid-column: 1/1;
+    }
+}
