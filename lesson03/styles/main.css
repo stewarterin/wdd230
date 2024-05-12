@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+header {
+    background-color: #00492D;
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+main {
+    font-family: Mulish, sans-serif;
+    font-size: 1.2em;
+}
+
+hr {
+    border: 2px solid #FFD29E;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: Philosopher, sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Philosopher, sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    font-family: Philosopher, sans-serif;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #00492D;
+}
+
+.secondary {
+    background-color: #007849;
+}
+
+.accent {
+    background-color: #FFD29E;
+}
+
+.typography {
+    padding-top: 30px;
+}
+
+.heading {
+    font-family: Philosopher, sans-serif;
+    font-size: 1.4em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.mobile {
+    width: 15%;
+}
