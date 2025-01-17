@@ -70,9 +70,16 @@ h2 {
 
 .card ul {
     list-style-type: none;
-    padding: 20px;
-    line-height: 1.3em;
+    padding: 30px;
+    font-size: 1.5em;
+    margin-left: 80px;
+    line-height: 40px;
 }
+
+.card ul li a {
+    margin-left: 10px;
+}
+
 
 .card p {
     padding: 20px;
