@@ -1,0 +1,12 @@
+@media screen and (max-width:750px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    #zillow-card {
+        grid-column: 1/1;
+    }
+}
