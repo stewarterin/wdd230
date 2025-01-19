@@ -1,0 +1,22 @@
+@media screen and (min-width: 930px) {
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+        list-style-type: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    h2 {
+        grid-column: 1/3;
+    }
+
+}
