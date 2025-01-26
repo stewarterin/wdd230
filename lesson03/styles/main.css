@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Scope+One&display=swap');
+
+header {
+    background-color: #BDDFBB;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #304B30;
+}
+
+main {
+    font-family: 'Scope One', 'Times New Roman', serif;
+    font-size: 1.7em;
+}
+
+hr {
+    border: 2px solid #FDE186;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Oooh Baby', 'Times New Roman', serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Scope One', 'Times New Roman', serif;
+    font-size: 2.2em;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Oooh Baby', 'Times New Roman', serif;
+    font-size: 1.8em;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+table {
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #BDDFBB;
+}
+
+.secondary {
+    background-color: #304B30;
+    color: white;
+}
+
+.accent {
+    background-color: #FDE186;
+}
+
+.typography {
+    padding-top: 50px;
+}
+
+.heading {
+    font-family: 'Oooh Baby', 'Times New Roman', serif;
+    font-size: 1.4em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.mobile {
+    width: 15%;
+}
