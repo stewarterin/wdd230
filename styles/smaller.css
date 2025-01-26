@@ -1,0 +1,34 @@
+@media screen and (max-width: 1009px) {
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    .navigation.show li {
+        list-style-type: none;
+    }
+
+    #menu {
+        background-color: #e9f7f6;
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+        font-size: 1.5em;
+    }
+
+    #menu.show::before {
+        content: "✖";
+        font-size: 1.5em;
+    }
+}

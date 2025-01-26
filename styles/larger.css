@@ -1,18 +1,31 @@
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 1010px) {
 
-    nav ul {
+    .navigation {
+        border-top: 5px solid #95c4c1;
+        border-bottom: 5px solid #95c4c1c5;
+    }
+
+    .navigation a {
         display: flex;
     }
 
-    nav ul li {
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation li {
         flex: 1 1 100%;
         list-style-type: none;
+    }
+
+    #menu {
+        display: none;
     }
 
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-gap: 2rem;
+        grid-gap: 1rem;
     }
 
     h2 {
