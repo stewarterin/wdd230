@@ -5,10 +5,11 @@
     }
 
     .navigation.show {
-        display: flex;
+        display: block;
     }
 
-    .navigation.show li {
+    .navigation a {
+        display: flex;
         list-style-type: none;
     }
 
