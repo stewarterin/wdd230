@@ -1,0 +1,182 @@
+@import url(https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css);
+
+@import url(https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Scope+One&display=swap);
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Oooh Baby', 'Times New Roman', serif;
+    font-size: 30px;
+    background-color: #BDDFBB;
+    display: flex;
+    padding: 5px;
+}
+
+h1 {
+    padding-left: 30px;
+
+}
+
+nav {
+    font-family: 'Scope One', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav.show {
+    display: block;
+    background-color: #e7f8e6;
+}
+
+#menu {
+    background-color: #e9f7f6;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 1.5em;
+}
+
+#menu.show::before {
+    content: "✖";
+    font-size: 1.5em;
+}
+
+main,
+footer {
+    font-family: 'Scope One', 'Times New Roman', serif;
+}
+
+#button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 200px;
+    border-radius: 45px;
+    background-color: #FDE186;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#hero {
+    height: 500px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#event-box,
+#weather-box,
+#company-box {
+    border: 3px solid #BDDFBB;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 60px auto;
+}
+
+#event-box p,
+#company-box p {
+    padding: 20px;
+}
+
+#weather-box,
+#company-box {
+    margin-top: 40px;
+}
+
+.event,
+.company {
+    display: block;
+    border: 1px solid black;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #BDDFBB;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 150%;
+}
+
+.my-info {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 70%;
+    padding: 5px;
+    background-color: #e7f8e6;
+}

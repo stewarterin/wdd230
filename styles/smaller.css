@@ -1,4 +1,16 @@
-@media screen and (max-width: 1009px) {
+@media screen and (max-width: 1025px) {
+
+    header {
+        display: flex;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+
+    }
 
     .navigation {
         display: none;

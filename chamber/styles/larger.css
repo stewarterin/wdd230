@@ -1,0 +1,64 @@
+@media screen and (min-width: 1050px) {
+
+
+    h1 {
+        margin-left: 120px;
+        display: inline;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        left: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 80px;
+        padding: 50px;
+        margin-right: 80px;
+    }
+
+    nav li {
+        margin-left: 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .button {
+        position: absolute;
+        right: 500px;
+        top: 450px;
+        margin-top: 0;
+    }
+
+
+    #event-box,
+    #weather-box,
+    #company-box {
+        width: 70%;
+    }
+
+    #event-box,
+    #company-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    .event,
+    .company {
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+    }
+}

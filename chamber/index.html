@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caldwell Chamber of Commerce</title>
+    <meta name="description"
+        content="This is a project for WDD230 - Web Fronted Development homepage, created by Erin Stewart. It is a mock Chamber of Commerce website for the city of Caldwell.">
+    <meta name="author" content="Erin Stewart">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Caldwell Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://stewarterin.github.io/wdd230/chamber/index.html">
+</head>
+
+<body>
+    <header>
+        <h1>Caldwell Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DISCOVER</a></li>
+            <li><a href="#">DIRECTORY</a></li>
+            <li><a href="#">JOIN</a></li>
+        </ul>
+    </nav>
+
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/" alt="">
+        </div>
+        <div id="button-box">
+            <button class="button"><span>Join the Chamber</span></button>
+        </div>
+    </div>
+    <main>
+        <div id="event-box">
+            <h2>Upcoming Events</h2>
+            <p class="event">Event #1</p>
+            <p class="event">Event #2</p>
+            <p class="event">Event #3</p>
+        </div>
+        <div id="weather-box">
+            <h2>Weather</h2>
+        </div>
+        <div id="company-box">
+            <h2>Business Spotlight</h2>
+            <p class="company">Company #1</p>
+            <p class="company">Company #2</p>
+            <p class="company">Company #3</p>
+        </div>
+    </main>
+    <footer>
+        <p>Caldwell Chamber of Commerce</p>
+        <p>123 Chamber Street</p>
+        <p>Caldwell, Idaho 83605</p>
+        <div class="my-info">
+            <p>Erin Stewart - Project Webpage for WDD230</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsivemenu.js"></script>
+</body>
+
+</html>
