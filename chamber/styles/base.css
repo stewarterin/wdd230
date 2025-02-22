@@ -57,8 +57,8 @@ nav.show {
     border: 0;
     background: none;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 6.5rem;
+    right: 1.5rem;
 }
 
 #menu::before {
@@ -139,11 +139,14 @@ h2 {
     padding: 20px;
     width: 50%;
     margin: 60px auto;
+    text-align: center;
 }
 
 #event-box p,
+#weather-box p,
 #company-box p {
     padding: 20px;
+    font-size: 1.4em;
 }
 
 #weather-box,
@@ -151,8 +154,8 @@ h2 {
     margin-top: 40px;
 }
 
-.event,
-.company {
+#event-box p,
+#company-box p {
     display: block;
     border: 1px solid black;
     padding: 15px;
@@ -180,4 +183,82 @@ footer {
     padding: 5px;
     background-color: #e7f8e6;
     font-size: 0.75em;
+}
+
+.switch {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 64px;
+    height: 40px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1.5px solid black;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #BDDFBB;
+    border: 1.5px solid black;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #000000;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #304B30;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+    border-color: #eee;
+}
+
+.dark-mode header,
+.dark-mode footer,
+.dark-mode .my-info {
+    background-color: #304B30;
+}
+
+.dark-mode nav a {
+    color: white;
 }

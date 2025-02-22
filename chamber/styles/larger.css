@@ -38,6 +38,9 @@
         margin-top: 0;
     }
 
+    h2 {
+        text-align: left;
+    }
 
     #event-box,
     #weather-box,
@@ -51,12 +54,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    h2 {
-        text-align: left;
+    #weather-box p {
+        display: inline-block;
+        padding: 10px 100px;
     }
 
-    .event,
-    .company {
+    #event-box p,
+    #company-box p {
         grid-row: 2/3;
         justify-self: center;
         align-self: center;
