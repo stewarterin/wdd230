@@ -62,12 +62,39 @@ h1 {
     text-shadow: 2px 1px 4px #4496d1;
 }
 
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 50px;
+    right: 55px;
+    padding: 0.5rem;
+    background-color: #aed3ece5;
+    border: outset;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
 h2 {
     font-size: 2em;
     letter-spacing: 1px;
     margin: 0 auto;
     border-bottom: 1px solid black;
-    padding-top: 50px;
     padding-bottom: 8px;
 }
 
