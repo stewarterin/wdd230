@@ -34,11 +34,13 @@ header {
 h1 {
     letter-spacing: 2px;
     font-size: 4em;
-    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation {
-    display: block;
+    display: none;
     margin: 0 auto;
     justify-content: center;
     list-style: none;
@@ -47,8 +49,12 @@ h1 {
     border-bottom: none;
 }
 
+.navigation.show {
+    display: block;
+}
+
 .navigation a {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: black;
@@ -60,6 +66,44 @@ h1 {
 .navigation li:hover {
     transform: scale(1.5);
     text-shadow: 2px 1px 4px #4496d1;
+}
+
+#menu {
+    background-color: #e9f7f6;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    font-size: 1.5em;
+}
+
+#menu.show::before {
+    content: "✖";
+    font-size: 1.5em;
+}
+
+.hero {
+    width: 400px;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    padding: 0rem;
+}
+
+.herolabel p {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .hero {
