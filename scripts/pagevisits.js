@@ -1,7 +1,7 @@
 const countDisplay = document.querySelector(".visits");
 let numVisists = Number(window.localStorage.getItem("numVisists-1s")) || 0;
 
-if (numVIsist !== 0) {
+if (numVisists !== 0) {
     countDisplay.textContent = numVisists;
 } else {
     countDisplay.textContent = 'Your first visit - Welcome';
