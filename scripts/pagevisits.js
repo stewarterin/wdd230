@@ -1,12 +1,12 @@
 const countDisplay = document.querySelector(".visits");
-let numVisists = Number(window.localStorage.getItem("numVisists-1s")) || 0;
+let numVisits = Number(window.localStorage.getItem("numVisits-1s")) || 0;
 
-if (numVisists !== 0) {
-    countDisplay.textContent = numVisists;
+if (numVisits !== 0) {
+    countDisplay.textContent = numVisits;
 } else {
     countDisplay.textContent = 'Your first visit - Welcome';
 }
 
-numVisists++;
+numVisits++;
 
-localStorage.setItem("numVisits-1s", numVisists);
+localStorage.setItem("numVisits-1s", numVisits);
