@@ -1,11 +1,5 @@
 @media screen and (min-width: 1050px) {
 
-
-    h1 {
-        margin-left: 120px;
-        display: inline;
-    }
-
     nav {
         position: absolute;
         top: 0;
@@ -31,9 +25,19 @@
         display: none;
     }
 
+    #logo,
+    h1 {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    #logo {
+        margin-left: 100px;
+    }
+
     .button {
         position: absolute;
-        right: 500px;
+        right: 780px;
         top: 450px;
         margin-top: 0;
     }

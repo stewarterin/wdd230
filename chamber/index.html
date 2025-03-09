@@ -23,6 +23,7 @@
 
 <body>
     <header>
+        <img id="logo" src="images/logo.webp" alt="connected hands logo">
         <h1>Caldwell Chamber of Commerce</h1>
     </header>
     <button id="menu"></button>
@@ -39,15 +40,20 @@
         <span class="slider round"></span>
     </label>
 
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/" alt="">
-        </div>
-        <div id="button-box">
-            <button class="button"><span>Join the Chamber</span></button>
-        </div>
-    </div>
     <main>
+        <div id="hero">
+            <div id="hero-box">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 768px)" sizes="100vw">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 1025px)" sizes="100vw">
+                    <img src="images/hero-large.webp" alt="Business Meeting" width="1600" height="500">
+                </picture>
+            </div>
+            <div id="button-box">
+                <button class="button"><span>Join the Chamber</span></button>
+            </div>
+        </div>
+
         <div id="event-box">
             <h2>Upcoming Events</h2>
             <p>Art Festival<br> -Jun 20-</p>
@@ -56,9 +62,9 @@
         </div>
         <div id="weather-box">
             <h2>Weather</h2>
-            <p>High: 66°</p>
-            <p>Low: 38°</p>
-            <p>Partly Cloudy</p>
+            <p>Temperature: <span id="temp">46</span> &deg;F</p>
+            <p>Windspeed: <span id="speed">4</span> mph</p>
+            <p>Windchill: <span id="chill"></span> &deg;</p>
         </div>
         <div id="company-box">
             <h2>Business Spotlight</h2>
@@ -79,6 +85,7 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/responsivemenu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
