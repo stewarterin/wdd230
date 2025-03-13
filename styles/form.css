@@ -16,6 +16,10 @@
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 1600px;
     margin: 0 auto;
     padding-left: 30px;
@@ -98,11 +102,13 @@ footer {
     margin: 2rem 0;
     border: 1px solid #5a5a5a;
     border-radius: var(--border-radius);
+    padding: 50px;
 }
 
 .wf1 label {
     display: block;
     padding-top: 1rem;
+    align-items: center;
 }
 
 .wf1 input[type="text"],
@@ -147,15 +153,17 @@ datalist {
     padding: .85rem;
     width: 96%;
     max-width: 400px;
-    margin: -1rem 1% 2rem 1%;
+    margin: -1rem 1% 2rem 10%;
 }
 
-.conf {
+h2 {
+    display: block;
     padding: var(--padding);
     text-align: center;
 }
 
 .message {
+    display: block;
     text-align: center;
     padding-bottom: var(--padding);
 }
