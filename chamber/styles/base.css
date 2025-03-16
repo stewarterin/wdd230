@@ -339,5 +339,64 @@ legend {
     grid-row: 1/3;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.nplev,
+.bronzelev,
+.silverlev,
+.goldlev {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    max-width: 400px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.cost {
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+.nplev {
+    border: 3px solid #7dab7be1;
+}
+
+.bronzelev {
+    border: 3px solid #cd80328b;
+}
+
+.silverlev {
+    border: 3px solid #C0C0C0;
+}
+
+.goldlev {
+    border: 3px solid #FFD700;
+}
+
+ul li {
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+.thanks {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5;
 }
