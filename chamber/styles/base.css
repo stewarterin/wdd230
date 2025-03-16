@@ -301,7 +301,8 @@ input:checked+.slider:before {
 
 .wf1 input[type="text"],
 .wf1 input[type="tel"],
-.wf1 input[type="email"] {
+.wf1 input[type="email"],
+.wf1 textarea {
     background-color: #e3e3e3a5;
     display: block;
     border-radius: 6px;
@@ -314,8 +315,6 @@ legend {
     font-size: 1.4em;
     padding: 5px 10px 0 10px;
 }
-
-.wf1 input[type="radio"] {}
 
 #submit {
     border: 1px solid #1d5cdb;
