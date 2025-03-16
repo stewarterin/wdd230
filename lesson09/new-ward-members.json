@@ -1,0 +1,58 @@
+[
+    {
+        "familyName": "Stewart",
+        "moveInDate": "2020-12-01",
+        "familyRecords": 5,
+        "bishopricVisited": true,
+        "familyMembers": [
+            {
+                "name": "Ray Stewart",
+                "gender": "Male",
+                "birthdate": "1980-08-08"
+            },
+            {
+                "name": "Jane Stewart",
+                "gender": "Female",
+                "birthdate": "1984-04-08"
+            },
+            {
+                "name": "Elle Stewart",
+                "gender": "Female",
+                "birthdate": "2012-01-15"
+            },
+            {
+                "name": "Owen Stewart",
+                "gender": "Male",
+                "birthdate": "2014-02-20"
+            },
+            {
+                "name": "Chad Stewart",
+                "gender": "Male",
+                "birthdate": "2017-03-11"
+            }
+        ]
+    },
+    {
+        "familyName": "Ferris",
+        "moveInDate": "2021-01-01",
+        "familyRecords": 3,
+        "bishopricVisited": false,
+        "familyMembers": [
+            {
+                "name": "Jared Stewart",
+                "gender": "Male",
+                "birthdate": "1995-03-15"
+            },
+            {
+                "name": "Julie Stewart",
+                "gender": "Female",
+                "birthdate": "1996-01-04"
+            },
+            {
+                "name": "Sarah Stewart",
+                "gender": "Female",
+                "birthdate": "2019-01-28"
+            }
+        ]
+    }
+]
