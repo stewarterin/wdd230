@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber</title>
+    <meta name="description" content="This is the page to join the Caldwell Chamber of Commerce.">
+    <meta name="author" content="Erin Stewart">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Scope+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Join the Chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://businessviewmagazine.com/wp-content/uploads/2022/11/Caldwell-Idaho-Canyon-County-Screen-Shot-2022-11-10-at-9.13.54-PM.png">
+    <meta property="og:url" content="https://stewarterin.github.io/wdd230/chamber/index.html">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logo.webp" alt="connected hands logo">
+        <h1>Caldwell Chamber of Commerce</h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DISCOVER</a></li>
+            <li><a href="#">DIRECTORY</a></li>
+            <li><a href="join.html">JOIN</a></li>
+        </ul>
+    </nav>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label>
+
+    <main>
+        <h2 class="today">Join Today!</h2>
+        <div id="join">
+            <form method="get" action="thankyou.html" class="wf1">
+                <fieldset class="info">
+                    <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label>Title/Position* <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}"
+                            required></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="janedoe@email.com"
+                            required></label>
+                    <label>Mobile Phone Number* <input type="tel" id="Phone" name="Phone" required></label>
+                    <label>Business/Organization Name* <input type="text" id="business" name="business"
+                            required></label>
+                    <label>Business Description <input type="text" id="description" name="description"></label>
+                </fieldset>
+                <fieldset class="member">
+                    <legend>Membership Level</legend>
+                    <label><input type="radio" name="level" value="np"> Nonprofit</label>
+                    <label><input type="radio" name="level" value="bronze"> Bronze</label>
+                    <label><input type="radio" name="level" value="silver"> Silver</label>
+                    <label><input type="radio" name="level" value="gold"> Gold</label>
+                </fieldset>
+                <input type="hidden" id="timeload" name="timeload" value="">
+
+                <button type="submit" id="submit" value="Join the Chamber">Join the Chamber</button>
+            </form>
+
+            <div class="member-box">
+                <h2>Membership Benefits</h2>
+                <div class="nplev">
+                    <h3>Nonprofit Organizations</h3>
+                    <p class="cost">Free</p>
+                    <ul>
+                        <li>Quarterly newsletters</li>
+                        <li>Event invitations</li>
+                        <li>Monthly networking meetings</li>
+                        <li>10% discount for paid events</li>
+                    </ul>
+                </div>
+                <div class="bronzelev">
+                    <h3>Bronze Membership</h3>
+                    <p class="cost">$100/year</p>
+                    <ul>
+                        <li>All nonprofit level benefits</li>
+                        <li>Quarterly webinar trainings</li>
+                        <li>Access to members-only online networking</li>
+                        <li>Access to early registration</li>
+                        <li>20% discount for paid events</li>
+                    </ul>
+                </div>
+                <div class="silverlev">
+                    <h3>Silver Membership</h3>
+                    <p class="cost">$200/year</p>
+                    <ul>
+                        <li>All bronze level benefits</li>
+                        <li>Premium resources, including community reports</li>
+                        <li>Access to member-only events</li>
+                        <li>Social media advertising slot</li>
+                        <li>30% discount for paid events</li>
+                    </ul>
+                </div>
+                <div class="goldlev">
+                    <h3>Gold Membership</h3>
+                    <p class="cost">$500/year</p>
+                    <ul>
+                        <li>All silver level benefits</li>
+                        <li>Exclusive meet-and-greets</li>
+                        <li>Annual VIP Gala</li>
+                        <li>One free business consultation</li>
+                        <li>Advertising spotlight</li>
+                        <li>60% discount for paid events</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Caldwell Chamber of Commerce</p>
+        <p>123 Chamber Street</p>
+        <p>Caldwell, Idaho 83605</p>
+        <div class="my-info">
+            <p>Erin Stewart - Project Webpage for WDD230</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsivemenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+
+</html>
