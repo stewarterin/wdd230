@@ -23,7 +23,7 @@
                 {
                     "url": "lesson02/media-query.html",
                     "title": "Media Queries"
-                }
+                },
                 {
                     "url": "lesson02/design-principles.html",
                     "title": "Design Principles Document"
@@ -40,7 +40,7 @@
                 {
                     "url": "https://codepen.io/erinstewart/pen/xbKyjrQ",
                     "title": "Pseudo-Elements"
-                }
+                },
                 {
                     "url": "https://codepen.io/erinstewart/pen/PwYyeEN",
                     "title": "Responsive Menu"
@@ -101,7 +101,7 @@
                 {
                     "url": "lesson08/Form-start/index.html",
                     "title": "HTML Forms"
-                }
+                },
                 {
                     "url": "form.html",
                     "title": "Form Build"
