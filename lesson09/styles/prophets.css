@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1,
+h2 {
+    font-family: 'Bebas Neue';
+    letter-spacing: 1.75px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: rgb(5, 62, 62);
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(0, 99, 99);
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+img {
+    width: auto;
+    max-width: 340px;
+    height: 440px;
+    box-shadow: 0 0 15px black;
+    border: 0.8px solid black;
+    display: block;
+    margin: 30px auto;
+}
+
+section {
+    background-color: rgba(0, 128, 128, 0.208);
+    border: 1px solid rgb(5, 62, 62);
+    margin: 10px;
+}
