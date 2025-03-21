@@ -184,6 +184,16 @@ h2::after {
     font-size: 1.5em;
 }
 
+#weather-icon {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card figure figcaption {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
 #map {
     display: block;
     margin: 0 auto;
