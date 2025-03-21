@@ -168,8 +168,14 @@ h2::after {
     line-height: 40px;
 }
 
+.card ul li {
+    display: flex;
+    align-items: center;
+}
+
 .card ul li a {
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .card p {
