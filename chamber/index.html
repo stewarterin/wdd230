@@ -29,7 +29,7 @@
     <button id="menu"></button>
     <nav class="navigation">
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="#">DISCOVER</a></li>
             <li><a href="#">DIRECTORY</a></li>
             <li><a href="join.html">JOIN</a></li>
@@ -41,6 +41,10 @@
     </label>
 
     <main>
+        <div id="banner">
+            <p>Attend our Meet-and-Greet this Wednesday at 7:00 pm!</p>
+            <button class="close">✖</button>
+        </div>
         <div id="hero">
             <div id="hero-box">
                 <picture>
@@ -50,10 +54,11 @@
                 </picture>
             </div>
             <div id="button-box">
-                <button class="button"><span>Join the Chamber</span></button>
+                <a href="join.html">
+                    <button class="button"><span>Join the Chamber</span></button>
+                </a>
             </div>
         </div>
-
         <div id="event-box">
             <h2>Upcoming Events</h2>
             <p>Art Festival<br> -Jun 20-</p>
@@ -61,10 +66,26 @@
             <p>Music Concert<br> -Aug 2-</p>
         </div>
         <div id="weather-box">
-            <h2>Weather</h2>
-            <p>Temperature: <span id="temp">46</span> &deg;F</p>
-            <p>Windspeed: <span id="speed">4</span> mph</p>
-            <p>Windchill: <span id="chill"></span> &deg;</p>
+            <h2>Current Weather</h2>
+            <div id="current">
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Temperature: <span id="temp"></span></p>
+                <p>Windspeed: <span id="speed"></span></p>
+                <p>Windchill: <span id="chill"></span></p>
+                <p id="temp"></p>
+            </div>
+            <h2 id="threeday">3-Day Forecast</h2>
+            <div id="forecast">
+                <p>1️⃣ <span id="one"></span></p>
+                <p>2️⃣ <span id="two"></span></p>
+                <p>3️⃣ <span id="three"></span></p>
+            </div>
+            <!--<p><span class="label">Page Visits: </span>
+                <span class="visits"></span>
+            </p>-->
         </div>
         <div id="company-box">
             <h2>Business Spotlight</h2>
@@ -85,7 +106,10 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/responsivemenu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/fetchweather.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/fetchforecast.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 
 </html>

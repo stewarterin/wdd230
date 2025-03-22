@@ -141,7 +141,8 @@ h2 {
 #event-box,
 #weather-box,
 #company-box {
-    border: 3px solid #BDDFBB;
+    border: 3px solid #1d5cdb3a;
+    background-color: #1d5cdb06;
     border-radius: 10px;
     padding: 20px;
     width: 50%;
@@ -169,6 +170,13 @@ h2 {
     width: 100px;
     height: 100px;
     margin: 0 auto 20px;
+}
+
+#weather-icon {
+    background-color: white;
+    border: 0.5px solid black;
+    width: 100px;
+    height: auto;
 }
 
 footer {
@@ -286,7 +294,8 @@ input:checked+.slider:before {
 
 .wf1 fieldset {
     margin: 2rem 0;
-    border: 3.5px solid #bddfbb89;
+    border: 3.5px solid #1d5cdb3a;
+    background-color: #1d5cdb06;
     border-radius: 6px;
     padding: 50px;
     max-width: 640px;
@@ -303,7 +312,7 @@ input:checked+.slider:before {
 .wf1 input[type="tel"],
 .wf1 input[type="email"],
 .wf1 textarea {
-    background-color: #e3e3e3a5;
+    border: 1.3px solid #1d5cdb4e;
     display: block;
     border-radius: 6px;
     padding: .75rem;
@@ -317,8 +326,7 @@ legend {
 }
 
 #submit {
-    border: 1px solid #1d5cdb;
-    background-color: #c4d7fee0;
+    background-color: #1d5cdb4e;
     border-radius: 6px;
     padding: .85rem;
     width: 100%;
@@ -367,19 +375,23 @@ h4 {
 }
 
 .nplev {
-    border: 3px solid #7dab7be1;
+    border: 3px solid #6140d76b;
+    background-color: #6140d71d;
 }
 
 .bronzelev {
     border: 3px solid #cd80328b;
+    background-color: #cd803238;
 }
 
 .silverlev {
     border: 3px solid #C0C0C0;
+    background-color: #c0c0c045;
 }
 
 .goldlev {
     border: 3px solid #FFD700;
+    background-color: #ffd90034;
 }
 
 ul li {
@@ -398,4 +410,19 @@ ul li {
     text-align: center;
     font-size: 1.5em;
     line-height: 1.5;
+}
+
+#banner {
+    background-image: linear-gradient(to bottom right, #ffa676, #FDE186);
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    background: none;
 }

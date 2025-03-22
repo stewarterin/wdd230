@@ -69,4 +69,36 @@
         justify-self: center;
         align-self: center;
     }
+
+    #weather-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #threeday {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #current,
+    #forecast {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #forecast {
+        padding-top: 40px;
+    }
+
+    #current figure,
+    #current p {
+        margin-bottom: 10px;
+    }
+
+    .close {
+        position: absolute;
+        top: 190px;
+        right: 40px;
+    }
 }
