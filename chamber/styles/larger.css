@@ -101,4 +101,9 @@
         top: 190px;
         right: 40px;
     }
+
+    .grid div {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
 }
