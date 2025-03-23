@@ -15,7 +15,7 @@
             "phone": "208-421-2167",
             "website": "https://www.oakesbrosmarketplace.com/",
             "icon": "images/oakes-logo.webp",
-            "level": "gold",
+            "level": "bronze",
             "joined": "2022"
         },
         {
@@ -24,7 +24,7 @@
             "phone": "503-593-9810",
             "website": "https://www.thunderspirittradingpost.com/",
             "icon": "images/thunder-logo.webp",
-            "level": "bronze",
+            "level": "gold",
             "joined": "2022"
         },
         {
@@ -42,7 +42,7 @@
             "phone": "208-459-2223",
             "website": "https://purplesagegolfcourse.com/",
             "icon": "images/purple-logo.webp",
-            "level": "silver",
+            "level": "gold",
             "joined": "2013"
         },
         {
@@ -51,7 +51,7 @@
             "phone": "208-454-3000",
             "website": "https://www.idahopizzacompany.com/",
             "icon": "images/idahopizza-logo.webp",
-            "level": "gold",
+            "level": "silver",
             "joined": "2010"
         },
         {
@@ -60,7 +60,7 @@
             "phone": "208-402-5722",
             "website": "https://www.extremepizza.com/",
             "icon": "images/extreme-logo.webp",
-            "level": "silver",
+            "level": "gold",
             "joined": "2021"
         }
     ]
