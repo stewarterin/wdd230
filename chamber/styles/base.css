@@ -505,3 +505,9 @@ section p {
     font-size: 1.3em;
     border-radius: 10px;
 }
+
+h4 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
