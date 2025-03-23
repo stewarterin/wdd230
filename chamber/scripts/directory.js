@@ -13,7 +13,7 @@ getMemberData();
 const displayMembers = (members) => {
     members.forEach((member) => {
         let card = document.createElement('section');
-        let name = document.createElement('h2');
+        let name = document.createElement('h3');
         let address = document.createElement('p');
         let phone = document.createElement('p');
         let logo = document.createElement('img');
@@ -25,8 +25,8 @@ const displayMembers = (members) => {
         logo.setAttribute('src', member.icon);
         logo.setAttribute('alt', `Logo for ${member.name}`);
         logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '340');
-        logo.setAttribute('height', '440');
+        logo.setAttribute('width', 'auto');
+        logo.setAttribute('height', '120');
 
         card.appendChild(name);
         card.appendChild(address);
