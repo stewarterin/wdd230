@@ -6,4 +6,6 @@ hambutton.addEventListener('click', () => {
     hambutton.classList.toggle('show');
 });
 
-document.getElementById("joinButton").onclick = () => window.location.href = "join.html";
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById("joinButton").onclick = () => window.location.href = "join.html";
+});
