@@ -387,6 +387,10 @@ td {
     cursor: pointer;
 }
 
+iframe {
+    padding: 50px;
+}
+
 /*----------- CONFIRMATION PAGE --------------*/
 #confirm-message {
     text-align: center;
