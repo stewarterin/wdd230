@@ -1,0 +1,76 @@
+{
+    "vehicles": [
+        {
+            "type": "Honda Metro Scooter",
+            "max-ppl": "1",
+            "prices": [
+                {
+                    "reserve-half": "$20",
+                    "reserve-full": "$30",
+                    "walk-half": "$25",
+                    "walk-full": "$35"
+                }
+            ]
+        },
+        {
+            "type": "Honda Dio Scooter",
+            "max-ppl": "2",
+            "prices": [
+                {
+                    "reserve-half": "$30",
+                    "reserve-full": "$40",
+                    "walk-half": "$35",
+                    "walk-full": "$45"
+                }
+            ]
+        },
+        {
+            "type": "Honda PCX150 Scooter",
+            "max-ppl": "2",
+            "prices": [
+                {
+                    "reserve-half": "$40",
+                    "reserve-full": "$50",
+                    "walk-half": "$45",
+                    "walk-full": "$55"
+                }
+            ]
+        },
+        {
+            "type": "Honda Pioneer ATV",
+            "max-ppl": "4",
+            "prices": [
+                {
+                    "reserve-half": "$50",
+                    "reserve-full": "$70",
+                    "walk-half": "$60",
+                    "walk-full": "$80"
+                }
+            ]
+        },
+        {
+            "type": "Jeep Wrangler 4 door ",
+            "max-ppl": "5",
+            "prices": [
+                {
+                    "reserve-half": "$70",
+                    "reserve-full": "$100",
+                    "walk-half": "$85",
+                    "walk-full": "$125"
+                }
+            ]
+        },
+        {
+            "type": "Jeep Wrangler 2 door",
+            "max-ppl": "4",
+            "prices": [
+                {
+                    "reserve-half": "$60",
+                    "reserve-full": "$85",
+                    "walk-half": "$70",
+                    "walk-full": "$90"
+                }
+            ]
+        }
+    ]
+}

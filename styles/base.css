@@ -65,11 +65,7 @@ h1 {
 
 .navigation li:hover {
     transform: scale(1.5);
-
-    .navigation li:hover {
-        transform: scale(1.5);
-        text-shadow: 2px 1px 4px #4496d1;
-    }
+    text-shadow: 2px 1px 4px #4496d1;
 }
 
 #menu {

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots- Motor scooter rental company- Cozumel, Quintana Roo, Mexico</title>
+    <meta name="description"
+        content="Homepage for Scoots in Cozumel, Mexico. We provide motor scooter rentals for everyone. This is the final project for WDD230 - Web Fronted Development homepage, created by Erin Stewart.">
+    <meta name="author" content="Erin Stewart">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Original+Surfer&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Scoots- Motor scooter rental company- Cozumel, Quintana Roo, Mexico">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pexels.com/photo/motorbike-parked-on-road-on-sea-shore-27054222/">
+    <meta property="og:url" content="https://stewarterin.github.io/wdd230/scoots.index.html">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img id="logo" src="images/scoots-logo.webp" alt="Scoots Logo">
+            <h1>SCOOTS</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="rentals.html">RENTALS</a></li>
+                <li><a href="reservations.html">RESERVATIONS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hightemp-message">
+            <p>Today's high is <span id="high"></span>.</p>
+            <button class="close">❌</button>
+        </div>
+
+        <div id="button-box">
+            <button class="reserve"><span>RESERVE NOW</span></button>
+        </div>
+
+        <div id="grid-box">
+            <img class="firstimage" src="images/scooter1.webp" alt="Scooter overlooking ocean">
+            <div id="info-box">
+                <p class="intro">Hi! We're Scoots-</p>
+                <p class="summary">Your friendly motor scooter rental business located in beautiful Cozumel, Mexico.
+                    We offer a variety of rentals for your adventuring needs. Our available rentals include three Honda
+                    motor scooter models, Honda side-by-side ATVs, and two Jeep Wrangler models. However you like to
+                    adventure, we've got you covered! Visit our rentals page for more detailed information.
+                </p>
+            </div>
+            <div id="weather-box">
+                <p class="weather">Weather</p>
+                <figure>
+                    <img id="weather-icon" src="https://openweathermap.org/img/wn/01d.png" alt="clear">
+                    <figcaption></figcaption>
+                </figure>
+                <div class="weather-data">
+                    <p>Tempurature: <span id="tempurature"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Tomorrow @ 15:00: <span id="forecast"></span></p>
+                </div>
+            </div>
+            <img class="secondimage" src="images/scooter2.webp" alt="Scooter parked near coastline">
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-box">
+            <div id="address-one">
+                <p>Scoots- el Centro de Cozumel </p>
+                <p>📞 555-666-4458</p>
+                <p>424 Easy Breezy Way</p>
+                <p>Cozumel, Q.R., Mexico </p>
+            </div>
+            <div id="address-two">
+                <p>Scoots- Terminal Puerta Maya</p>
+                <p>📞 333-999-5124</p>
+                <p>112 Adventure Road</p>
+                <p>Cozumel, Q.R., Mexico </p>
+            </div>
+            <div id="social-box">
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook-icon.webp" alt="Facebook Logo">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram-icon.webp" alt="Instagram Logo">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="images/youtube-icon.webp" alt="YouTube Logo">
+                </a>
+                <a href="attribution.html" class="attribution">ATTRIBUTIONS</a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="scripts/fetchweather.js"></script>
+    <script src="scripts/buttons.js"></script>
+</body>
+
+</html>
