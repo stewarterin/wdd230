@@ -11,5 +11,13 @@ async function getPrices() {
 getPrices();
 
 const displayPrices = (vehicles) => {
-    metro.
+    vehicles.forEach((vehicle) => {
+        const type = vehicle.type;
+        const prices = vehicle.prices;
+
+        document.getElementById(`${type}-one`).textContent = prices.reserve - half;
+        document.getElementById(`${type}-two`).textContent = prices.reserve - full;
+        document.getElementById(`${type}-three`).textContent = prices.walk - half;
+        document.getElementById(`${type}-four`).textContent = prices.walk - full;
+    });
 }
