@@ -217,6 +217,19 @@ footer a {
     align-items: center;
 }
 
+/*----------- RENTALS PAGE --------------*/
+#metro-box,
+#dio-box,
+#pcx-box,
+#pioneer-box,
+#fourwrangler-box,
+#twowrangler-box {
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
 /*----------- RESERVATIONS PAGE --------------*/
 .reserve-header {
     font-size: 2em;
@@ -225,8 +238,6 @@ footer a {
 
 .wf1 fieldset {
     margin: 2rem 0;
-    border: 1px sold #9a0909;
-    border-radius: 6px;
     padding: .5rem 2%;
 }
 
@@ -286,7 +297,7 @@ footer a {
 .wf1 button {
     background-color: var(--accent-color1);
     border-radius: 5px;
-    padding: .9rem;
+    padding: 1.4rem;
     width: 100%;
     font-size: 1.5em;
     max-width: 500px;
@@ -297,7 +308,13 @@ footer a {
     cursor: pointer;
 }
 
-#rental-agreement
+#rental-agreement {
+    border: 1.5px solid var(--accent-color1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
 
 /*----------- CONTACT PAGE --------------*/
 #contact-page {
