@@ -1,0 +1,42 @@
+@media screen and (min-width: 1050px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1600px;
+        gap: 0;
+    }
+
+    #grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+    }
+
+    .firstimage,
+    .secondimage {
+        width: 700px;
+        height: auto;
+        margin: 0;
+    }
+
+    #hightemp-message {
+        margin: 40px auto 10px;
+    }
+
+    #weather-box {
+        margin: 0;
+    }
+
+    #contact-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1500px;
+    }
+
+    #contact-img {
+        rotate: -3deg;
+        margin: 0 auto;
+        grid-row: 1/2;
+    }
+}

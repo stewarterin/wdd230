@@ -50,8 +50,8 @@ nav ul {
     list-style-type: none;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    max-width: 1600px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 nav ul li {
@@ -91,7 +91,7 @@ nav ul li a:hover::after {
     background-color: #91bee835;
     border: 1px solid var(--secondary-color);
     padding: 30px 0;
-    margin: 40px auto 10px;
+    margin: 40px 20px 10px;
     position: relative;
     max-width: 800px;
 }
@@ -135,10 +135,8 @@ nav ul li a:hover::after {
 
 /*----------- HOMEPAGE GRID --------------*/
 #grid-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
     margin-top: 50px;
+    margin: 0 auto;
 }
 
 .firstimage,
@@ -146,7 +144,9 @@ nav ul li a:hover::after {
     background-color: #fff;
     padding: 1rem 1rem 3rem;
     box-shadow: 5px 5px 10px 10px #888888;
-    max-width: 700px;
+    width: 400px;
+    height: auto;
+    margin: 0 80px;
 }
 
 .firstimage {
@@ -155,13 +155,18 @@ nav ul li a:hover::after {
 
 .secondimage {
     rotate: 3deg;
+    margin: 50px 20px 0 200px;
+}
+
+#info-box {
+    margin: 80px 80px 0;
 }
 
 /*----------- HOMEPAGE WEATHER --------------*/
 #weather-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
+    margin: 0 30px;
 }
 
 .intro,
@@ -319,7 +324,7 @@ footer a {
 /*----------- CONTACT PAGE --------------*/
 #contact-page {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 3rem;
     margin: 80px;
     max-width: 1500px;
@@ -341,6 +346,7 @@ footer a {
 #contact-img {
     rotate: -3deg;
     margin: 0 auto;
+    grid-row: 2/3;
 }
 
 .wf2 label {
